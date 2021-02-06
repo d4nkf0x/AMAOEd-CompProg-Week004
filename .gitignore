@@ -28,6 +28,6 @@
 
 # Executables
 build/main
-*.exe
+# *.exe
 *.out
 *.app
