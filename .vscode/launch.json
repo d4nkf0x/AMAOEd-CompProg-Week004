@@ -5,8 +5,8 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/build/main",
-            "args": [],
+            "program": "C:\\MinGW\\bin\\gdb.exe",
+            "args": ["run","${workspaceRoot}\\build\\main.exe"],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
@@ -37,7 +37,7 @@
                     }
                 ],
                 "preLaunchTask": "[g++] Compile for Windows",
-                "miDebuggerPath": "C:/ProgramData/chocolatey/bin/gdb.exe"
+                "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe"
             }
         },
         {
