@@ -7,7 +7,7 @@
             "type": "shell",
             "label": "[g++] Compile for Windows",
             "command": "C:/ProgramData/chocolatey/bin/g++.exe",
-            "args": [ "-g", "-o", "build/6", "src/6.cpp" ],
+            "args": [ "-g", "-o", "build/9", "src/9.cpp" ],
             "problemMatcher": ["$gcc"],
             "presentation": {
                 "echo": true,
